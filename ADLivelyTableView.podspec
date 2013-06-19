@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/pilot34/ADLivelyTableView.git' }
   s.platform     = :ios, '5.0'
   s.source_files = 'ADLivelyTableView.{h,m}'
-  s.requires_arc = true
+  s.requires_arc = false
 
   s.framework = 'QuartzCore'
 
