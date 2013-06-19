@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'ADLivelyTableView.{h,m}'
   s.requires_arc = true
 
+  s.framework = 'QuartzCore'
+
 end
